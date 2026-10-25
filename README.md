@@ -3,6 +3,8 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+**Languages:** [English](README.en.md) · [中文](README.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [Français](README.fr.md) · [Español](README.es.md)
+
 > **Agent Skills 生态精选** · `SKILL.md` · portable skill packs · marketplaces · authoring tools  
 > Curated list for **Agent Skills** (capability packages agents can load) — **not** a prompt library, **not** an MCP server directory.
 
@@ -11,7 +13,7 @@
 
 **标记：** ⭐ 成熟 / 广泛采用 · ☄️ 上升中 / 值得盯  
 **结构：** Method Family × Domain  
-**语言：** 中文说明为主；项目名与链接保留英文
+**语言：** 中文说明为主；另有 [English](README.en.md) / [日本語](README.ja.md) / [한국어](README.ko.md) / [Français](README.fr.md) / [Español](README.es.md)；项目名与链接保留英文
 
 ### Skills ≠ MCP ≠ Mem（先读）
 
@@ -188,4 +190,4 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 
 - ThinkFlowLab / hs（出门 Awesome）
 
-**Last updated:** 2026-10-26 (Asia/Shanghai) · first-wave shortlist by category
+**Last updated:** 2026-10-26 (Asia/Shanghai) · multilingual READMEs (zh / en / ja / ko / fr / es)
