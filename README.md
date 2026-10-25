@@ -56,13 +56,15 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 
 | 标记 | 项目 | 一句话 | 链接 |
 |---|---|---|---|
-| ⭐ 示例 | **Anthropic Agent Skills** | Agent Skills / `SKILL.md` 官方说明与约定 | https://www.anthropic.com （文档入口以官网为准） |
-| ⭐ 示例 | **Claude / Cursor Skill 约定** | 宿主如何发现与加载 skill 目录 | _填各产品文档实链_ |
-| ☄️ 示例 | **Agent Skills 开放讨论 / RFC** | 跨宿主可移植技能契约社区草案 | _填实链_ |
-| 示例 | **官方 example skills** | hello-world、domain 示例包 | _填 repo_ |
-| 示例 | _（占位）SKILL.md schema_ | 字段、权限、资源约定 | URL |
-
-> 表中 **「示例」** 为骨架占位；开仓后换成核实过的规范与文档链接。
+| ⭐ | **agentskills/agentskills** | 开放 Agent Skills 规范与文档站源码；AAIF 托管目标 | https://github.com/agentskills/agentskills |
+| ⭐ | **Agent Skills Specification** | `SKILL.md` frontmatter / 目录契约（canonical） | https://agentskills.io/specification |
+| ⭐ | **Agent Skills home** | 总览与 progressive disclosure 模型 | https://agentskills.io/home |
+| ⭐ | **anthropics/skills** | Anthropic 参考 skill 树（`skill-creator`、docx/pdf/pptx/xlsx 等）；标准指向 agentskills.io | https://github.com/anthropics/skills |
+| ⭐ | **AAIF · Skills** | 中立治理主页（Agent Skills 捐赠至 Agentic AI Foundation） | https://aaif.io/projects/skills |
+| ⭐ | **Anthropic donation note** | 捐赠叙事与采纳背景 | https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation |
+| ⭐ | **Cursor Agent Skills docs** | 宿主发现路径（`.cursor/skills/`、`.agents/skills/` 等） | https://cursor.com/docs/skills |
+| ⭐ | **Claude · create custom skills** | 官方编写指南（文件夹 + `SKILL.md`） | https://claude.com/docs/skills/how-to |
+| ⭐ | **Claude platform · Agent Skills overview** | 产品 / API 向总览 | https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview |
 
 ---
 
@@ -72,11 +74,9 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 
 | 标记 | 项目 | 一句话 | 链接 |
 |---|---|---|---|
-| ☄️ 示例 | **awesome-cursor-skills 类合集** | 社区 skill 包索引（若遵循 SKILL.md） | _填实链_ |
-| 示例 | **docx / pptx / spreadsheet skills** | 办公文档类可加载技能（本 bot 生态亦有） | _填实链_ |
-| 示例 | **browser / search skills** | 浏览与检索类 portable pack | _填实链_ |
-| 示例 | **git / PR review skills** | 源码工作流技能包 | _填实链_ |
-| 示例 | _（占位）org-skills-monorepo_ | 某组织的标准技能单仓 | URL |
+| ⭐ | **vercel-labs/agent-skills** | Vercel 官方可移植包（React/Next 实践、部署等）；`npx skills` 主安装目标之一 | https://github.com/vercel-labs/agent-skills |
+| ⭐ | **obra/superpowers** | 可安装的 agentic skills + 软件交付方法论，采用信号强 | https://github.com/obra/superpowers |
+| ☄️ | **addyosmani/agent-skills** | 面向编码 agent 的生产级工程技能包 | https://github.com/addyosmani/agent-skills |
 
 **收录门槛：** 至少有可识别的技能清单文件（`SKILL.md` 或文档中声明的等价物）+ 可复现的加载步骤。纯「提示词.md」不收。
 
@@ -84,14 +84,12 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 
 ## Method · Skill 市场与目录 Marketplaces
 
-发现、安装、版本与评分（若有）。
+发现、安装、版本与评分（若有）。本仓与下列列表 **互链对等**，不整仓镜像条目。
 
 | 标记 | 项目 | 一句话 | 链接 |
 |---|---|---|---|
-| ☄️ 示例 | **Skill registry / directory** | 可搜索的 skill 目录 | _填实链_ |
-| 示例 | **GitHub topic: agent-skills** | 用 topic/标签发现技能仓 | https://github.com/topics/ |
-| 示例 | **宿主应用内 skill 商店** | 产品内发现与一键启用 | _产品页_ |
-| 示例 | _（占位）Private skill catalog_ | 企业内部技能目录 | URL |
+| ⭐ | **VoltAgent/awesome-agent-skills** | 社区领先的 Agent Skills awesome（多宿主、大量技能条目）— **对等列表**，择优互链 | https://github.com/VoltAgent/awesome-agent-skills |
+| ⭐ | **skills.sh** | 面向 `npx skills` 的发现 / 安装排行榜 UI | https://www.skills.sh |
 
 ---
 
@@ -101,11 +99,9 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 
 | 标记 | 项目 | 一句话 | 链接 |
 |---|---|---|---|
-| ☄️ 示例 | **skill-creator / skill-authoring** | 编写与评审可复用 Agent Skill | _填实链（如各 org 的 skill-creator）_ |
-| 示例 | **SKILL.md linter** | 校验 frontmatter、路径、危险权限 | URL |
-| 示例 | **skill init CLI** | 脚手架生成标准目录结构 | URL |
-| 示例 | **eval harness for skills** | 技能级验收（互链 awesome-agent-eval） | URL |
-| 示例 | _（占位）_ | 从演示录像归纳 skill（learn-from-demonstration 类） | URL |
+| ☄️ | **NVIDIA/SkillSpector** | 安装前扫描 agent skills（注入、外泄、供应链风险） | https://github.com/NVIDIA/SkillSpector |
+
+> 更多 authoring / optimizer（如 SkillOpt、SkillCorpus）见后续波次；技能级验收互链 `awesome-agent-eval`。
 
 ---
 
@@ -115,10 +111,9 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 
 | 标记 | 项目 | 一句话 | 链接 |
 |---|---|---|---|
-| ⭐ 示例 | **Cursor / Claude 内置 skill loader** | 约定目录与触发方式 | _产品文档_ |
-| ☄️ 示例 | **Open skill runtime** | 开源宿主对 SKILL.md 的加载器 | _填实链_ |
-| 示例 | **Skill + MCP bridge** | 技能声明所需 MCP server | 互链 mcp 仓 |
-| 示例 | _（占位）Skill composition graph_ | 多技能依赖与冲突解决 | URL |
+| ⭐ | **vercel-labs/skills** | **`npx skills`** — 跨多 agent 的开放安装 CLI；与 skills.sh 配套 | https://github.com/vercel-labs/skills |
+| ⭐ | **Vercel agent-skills docs** | 宿主 + 包安装 cookbook | https://vercel.com/docs/agent-resources/skills |
+| ⭐ | **Cursor / Claude skill 发现** | 产品内约定目录与加载方式（见 Spec 区文档行） | https://cursor.com/docs/skills · https://claude.com/docs/skills/how-to |
 
 ---
 
@@ -128,31 +123,30 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 
 | 标记 | 技能包 | 一句话 | 链接 |
 |---|---|---|---|
-| 示例 | **PR review skill** | 按仓库规范审 PR | URL |
-| 示例 | **test-generation skill** | 按 CI 层级补测 | URL |
-| 示例 | _（占位）_ | monorepo 迁移技能 | URL |
+| ☄️ | **Leonxlnx/taste-skill** | 设计品味 / 艺术指导类技能（含浏览器核对） | https://github.com/Leonxlnx/taste-skill |
+| ☄️ | **tt-a1i/archify** | 从想法或代码库生成架构图的 agent skill | https://github.com/tt-a1i/archify |
+
+> 工程向 portable pack 亦见 [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)、[vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills)（Portable Packs 区）。
 
 ### Research / Science
 
 | 标记 | 技能包 | 一句话 | 链接 |
 |---|---|---|---|
-| 示例 | **literature-search skill** | 文献检索与引用规范 | URL |
-| 示例 | **citation-reviewer skill** | 核对引用是否张冠李戴 | URL |
-| 示例 | _（占位）_ | 实验记录技能 | URL |
+| ⭐ | **K-Dense-AI/scientific-agent-skills** | 大规模科学技能库；宣称兼容 Agent Skills 标准 | https://github.com/K-Dense-AI/scientific-agent-skills |
+| ☄️ | **mvanhorn/last30days-skill** | 跨 Reddit/X/YT/HN/Web 的近期信息综合研究技能 | https://github.com/mvanhorn/last30days-skill |
 
 ### Office / Docs
 
 | 标记 | 技能包 | 一句话 | 链接 |
 |---|---|---|---|
-| 示例 | **docx / pptx / sheets skills** | 办公文档生成与修改 | URL |
-| 示例 | _（占位）_ | 会议纪要 → 任务技能 | URL |
+| ☄️ | **kepano/obsidian-skills** | Obsidian CLI + 开放格式技能（Markdown / Bases / Canvas） | https://github.com/kepano/obsidian-skills |
+| ⭐ | **anthropics/skills（办公示例）** | 官方参考树中的 docx / pdf / pptx / xlsx 等示例技能 | https://github.com/anthropics/skills |
 
 ### Ops / Data
 
 | 标记 | 技能包 | 一句话 | 链接 |
 |---|---|---|---|
-| 示例 | **runbook skill** | 受控排障步骤包 | URL |
-| 示例 | _（占位）_ | 数仓查询技能（声明只读） | URL |
+| ☄️ | **cloudflare/security-audit-skill** | 多阶段安全审计技能，产出机器可读 findings | https://github.com/cloudflare/security-audit-skill |
 
 ---
 
@@ -178,6 +172,7 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 | `awesome-agent-sandbox` | 技能脚本的执行隔离 |
 | `awesome-agent-eval` | 技能级验收与轨迹评测 |
 | `awesome-agent-rsi` | 自改进流程可产出/修订 skill |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 对等社区列表（不镜像） |
 
 ---
 
@@ -187,10 +182,10 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 
 ## Disclaimer
 
-本列表与 Anthropic、Cursor、OpenAI 及其他厂商/项目 **无隶属关系**；收录与 ⭐/☄️ **不构成背书**。标 **「示例」** 的行为草稿占位，发布前须逐条核实链接与是否符合 `SKILL.md`（或等价）契约。
+本列表与 Anthropic、Cursor、OpenAI、Vercel、NVIDIA 及其他厂商/项目 **无隶属关系**；收录与 ⭐/☄️ **不构成背书**。条目须符合可加载技能契约（`SKILL.md` 或等价）；星标数量 alone 不是排序依据。
 
 ## Maintainers
 
 - ThinkFlowLab / hs（出门 Awesome）
 
-**Last updated:** 2026-10-26 (Asia/Shanghai) · draft skeleton only · **repo not published**
+**Last updated:** 2026-10-26 (Asia/Shanghai) · first-wave shortlist by category
