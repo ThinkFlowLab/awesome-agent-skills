@@ -149,6 +149,7 @@ Skill は MCP ツールを **呼び出したり** Mem を読み書きしたり�
 | マーク | スキルパック | 一言 | リンク |
 |---|---|---|---|
 | ☄️ | **cloudflare/security-audit-skill** | 多段階セキュリティ監査スキル；機械可読な findings を出力 | https://github.com/cloudflare/security-audit-skill |
+| ☄️ | **yoruuuchan/chatgpt-mcp-connect** | ローカル/ホスト型 MCP サーバを ChatGPT に接続する再現可能なレシピ（Streamable HTTP、stdio ブリッジ、OAuth 2.1、Cloudflare、Tailscale Funnel） | https://github.com/yoruuuchan/chatgpt-mcp-connect |
 
 ---
 
