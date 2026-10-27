@@ -149,6 +149,7 @@ Skill 可以 **调用** MCP 工具或读写 Mem；收录时仍归 Skills，并�
 | 标记 | 技能包 | 一句话 | 链接 |
 |---|---|---|---|
 | ☄️ | **cloudflare/security-audit-skill** | 多阶段安全审计技能，产出机器可读 findings | https://github.com/cloudflare/security-audit-skill |
+| ☄️ | **yoruuuchan/chatgpt-mcp-connect** | MCP 服务器接入 ChatGPT 的可复现配方（Streamable HTTP、stdio 桥、OAuth 2.1、Cloudflare、Tailscale Funnel） | https://github.com/yoruuuchan/chatgpt-mcp-connect |
 
 ---
 

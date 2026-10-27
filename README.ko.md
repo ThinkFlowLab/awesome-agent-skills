@@ -149,6 +149,7 @@ Skill은 MCP 도구를 **호출**하거나 Mem을 읽고 쓸 수 있음; 수록�
 | 표시 | 스킬 팩 | 한 줄 | 링크 |
 |---|---|---|---|
 | ☄️ | **cloudflare/security-audit-skill** | 다단계 보안 감사 스킬; 기계 가독 findings 산출 | https://github.com/cloudflare/security-audit-skill |
+| ☄️ | **yoruuuchan/chatgpt-mcp-connect** | 로컬/호스팅 MCP 서버를 ChatGPT에 연결하는 재현 가능한 레시피(Streamable HTTP, stdio 브리지, OAuth 2.1, Cloudflare, Tailscale Funnel) | https://github.com/yoruuuchan/chatgpt-mcp-connect |
 
 ---
 

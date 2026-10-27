@@ -149,6 +149,7 @@ Cómo los hosts descubren skills, hot-load, sandboxes de permisos, orquestación
 | Marca | Pack de skills | En una frase | Enlace |
 |---|---|---|---|
 | ☄️ | **cloudflare/security-audit-skill** | Skill de auditoría de seguridad multi-etapa con findings legibles por máquina | https://github.com/cloudflare/security-audit-skill |
+| ☄️ | **yoruuuchan/chatgpt-mcp-connect** | Recetas reproducibles para conectar servidores MCP locales/alojados a ChatGPT (Streamable HTTP, puentes stdio, OAuth 2.1, Cloudflare, Tailscale Funnel) | https://github.com/yoruuuchan/chatgpt-mcp-connect |
 
 ---
 

@@ -149,6 +149,7 @@ How hosts discover skills, hot-load, permission sandboxes, multi-skill orchestra
 | Mark | Skill pack | One-liner | Link |
 |---|---|---|---|
 | ☄️ | **cloudflare/security-audit-skill** | Multi-stage security audit skill with machine-readable findings | https://github.com/cloudflare/security-audit-skill |
+| ☄️ | **yoruuuchan/chatgpt-mcp-connect** | Reproducible recipes for connecting local and hosted MCP servers to ChatGPT (Streamable HTTP, stdio bridges, OAuth 2.1, Cloudflare, Tailscale Funnel) | https://github.com/yoruuuchan/chatgpt-mcp-connect |
 
 ---
 
